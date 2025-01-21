@@ -20,9 +20,7 @@
 
 
 /*=========================================================== Common css starts here */
-.margin-default{
-    margin: 0px 8rem 0px 8.75rem;
-}
+
 .D-flex{
     display: flex;
 }
@@ -35,16 +33,16 @@
     font-size: 1.25rem;
     font-weight: 400;    
 }
-
+.chevron-btn{
+    font-size: 3.125rem;
+    padding: 10px;
+}
 
 /*=========================================================== Common css ends here */
 
 /* --------------------------------------------All body styles------------------------------------------- */
 
 /* ---------------------------------------Header styles*/
-.header{
-    
-}
 
 /* nav styles */
 .navbar{
@@ -56,8 +54,7 @@
 
 .nav-text-and-logo{
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .nav-text{
@@ -65,8 +62,6 @@
     font-weight: 700;
 }
 
-.nav-menu{
-}
 .nav-menu {
     list-style: none;
 }
@@ -157,8 +152,96 @@
     height: 43.75rem;
 }
 /* ---------------------------------------Main styles */
+ 
+/* ----------------------------------------Standard Curriculum------------------------------------ */
+.standard-curriculum{
+   background-image: url('/images/bg.png');
+   background-repeat: no-repeat;
+   margin-bottom: 7.5rem;
+}
+.section-heading{
+     text-align: center;
+     color: rgb(0, 0, 0);
+     font-size: 2.875rem;
+     font-weight: 700;
+}
 
+.cards-container{
+    justify-content: center;
+    gap: 1.875rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+   
+}
+/* Card styles */
 
+.card{
+    width: 22.9875rem;
+    height: 29.79875rem;
+    padding: 4.0625rem 2.5rem;
+    text-align: center;
+    
+}
+
+.card1{
+        box-sizing: border-box;
+        border: 0.94px solid rgb(222, 245, 255);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card2{
+        box-sizing: border-box;
+        border: 0.94px solid rgb(255, 244, 220);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card3{
+        box-sizing: border-box;
+        border: 0.94px solid rgb(242, 232, 255);
+        border-radius: 18.86px;
+        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+        background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-text{
+    color: rgb(32, 32, 32);
+    font-size: 24.52px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-small-text{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 2.416875;
+}
+#sky-blue-font{
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+}
+#gold-font{
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+}
+#violet-font{
+    color: rgb(135, 0, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+}
+/* button */
+
+.arrow-btn{
+    text-align: center;
+}
 
 /* ---------------------------------------Footer styles */
 
@@ -166,6 +249,104 @@
 
 /*=========================================================== Responsive Section Starts here */
 
+@media screen and (max-width: 575px) {
+    *{
+        margin: 0px;
+    }
+    .d-none{
+        display: block !important;
+    }
+    .custom-size {
+        font-size: 24px; 
+    }
+
+    .navbar{
+        justify-content:space-between;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid rgb(254, 163, 1);   
+    }
+    .nav-text ,.nav-menu, .nav-btn{
+        display: none;
+    }
+   
+
+    /* ------------------------------------Hero section */
+
+    .hero-section , .cards-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 3.75rem;
+    }
+    
+    .text-container{
+        width: 22.3125rem;
+        height: 15.75rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    
+    .hero-text{
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgb(17, 17, 17);
+        margin-bottom: 20px;
+    }
+
+    /* colorful banner texts with ID */
+
+    #hero-gold-text{
+        color: rgb(254, 163, 1);
+        font-size: 2rem;
+        font-weight: 700;
+        display: block;
+    }
+    #hero-sky-blue-text{
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgb(1, 172, 253);
+    }
+    .light-text{
+        color: rgb(17, 17, 17);
+        font-family: Quicksand;
+        font-size: 1.25rem;
+        font-weight: 500; 
+        margin-bottom: 18px;
+    }
+    .hero-btn{
+        width: 12.3125rem;
+        height: 3.125rem;
+        padding: 0.625rem;
+        border-radius: 12px;
+        background: rgb(17, 17, 17);
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 80px;
+    }
+    
+    /* Image container (right div) styles*/
+
+    .hero-img{
+        width: 21.03625rem;
+        height: 25.8125rem;
+    }
+
+    /* -----------------------------------Standard Curriculum-------------------------- */
+    .section-heading{
+        margin-top: 6.75rem;
+    }
+    .cards-container{
+        margin: 1.25rem 1.03125rem;
+    }
+    .chevron-btn{
+        display: none !important;
+    }
+}
 
 
 /*=========================================================== Responsive Section Ends here */
