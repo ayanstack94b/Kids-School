@@ -1,4 +1,31 @@
+/*=========================================================== Integrating Google Fonts here */
+
+/* quicksand-main-font */
+.quicksand-main-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Raleway Secondary font  */
+
+.raleway-font-secondary {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*=========================================================== */
+
+
 /*=========================================================== Common css starts here */
+.margin-default{
+    margin: 0px 8rem 0px 8.75rem;
+}
+.D-flex{
+    display: flex;
+}
 
 
 
@@ -6,15 +33,79 @@
 
 /* --------------------------------------------All body styles------------------------------------------- */
 
-/* header styles*/
+/* ---------------------------------------Header styles*/
+.header{
+    
+}
+
+/* nav styles */
+.navbar{
+  margin: 20px 0px 18px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-text-and-logo{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-text{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-menu{
+}
+.nav-menu {
+    list-style: none;
+}
+.nav-menu li > a{
+    margin-right: 2rem;
+    text-decoration: none;
+}
+/* custom nav menu */
+
+#home{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(254, 163, 1);
+}
+#about{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+}
+#facilities{
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+}
+#admission{
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-btn{
+    width: 12.3125rem;
+    height: 3.125rem;
+    border-radius: 12px;
+    background-color: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+/* ---------------------------------------Main styles */
 
 
 
-/* main styles */
-
-
-
-/* footer styles */
+/* ---------------------------------------Footer styles */
 
 
 
