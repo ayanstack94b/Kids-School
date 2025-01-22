@@ -6,14 +6,15 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
 /* Raleway Secondary font  */
 
 .raleway-font-secondary {
-  font-family: "Raleway", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*=========================================================== */
@@ -21,18 +22,21 @@
 
 /*=========================================================== Common css starts here */
 
-.D-flex{
+.D-flex {
     display: flex;
 }
-.d-none{
+
+.d-none {
     display: none !important;
 }
-.light-text{
+
+.light-text {
     color: rgb(17, 17, 17);
     font-size: 1.25rem;
-    font-weight: 400;    
+    font-weight: 400;
 }
-.chevron-btn{
+
+.chevron-btn {
     font-size: 3.125rem;
     padding: 0.625rem;
 }
@@ -44,19 +48,19 @@
 /* ---------------------------------------Header styles*/
 
 /* nav styles */
-.navbar{
-  margin: 1.25rem 0px 1.125rem;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0.3125rem;
+.navbar {
+    margin: 1.25rem 0px 1.125rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.3125rem;
 }
 
-.nav-text-and-logo{
+.nav-text-and-logo {
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
 
-.nav-text{
+.nav-text {
     font-size: 2rem;
     font-weight: 700;
 }
@@ -64,34 +68,39 @@
 .nav-menu {
     list-style: none;
 }
-.nav-menu li > a{
+
+.nav-menu li>a {
     margin-right: 2rem;
     text-decoration: none;
 }
+
 /* custom nav menu */
 
-#home{
+#home {
     font-size: 1.25rem;
     font-weight: 700;
     color: rgb(254, 163, 1);
 }
-#about{
+
+#about {
     font-size: 1.25rem;
     font-weight: 500;
     color: rgb(1, 172, 253);
 }
-#facilities{
+
+#facilities {
     color: rgb(5, 212, 223);
     font-size: 1.25rem;
     font-weight: 500;
 }
-#admission{
+
+#admission {
     color: rgb(93, 88, 239);
     font-size: 1.25rem;
     font-weight: 500;
 }
 
-.nav-btn{
+.nav-btn {
     width: 12.3125rem;
     height: 3.125rem;
     border-radius: 0.75rem;
@@ -104,36 +113,38 @@
 
 /* Hero / Banner section (left div) styles */
 
-.hero-section{
-    justify-content:space-evenly;
+.hero-section {
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 3.75rem;
 }
 
-.text-container{
+.text-container {
     width: 40rem;
     height: 20.6875rem;
 }
 
-.hero-text{
+.hero-text {
     font-size: 3.5rem;
     font-weight: 700;
     color: rgb(17, 17, 17);
     margin-bottom: 0px;
 }
+
 /* colorful banner texts with ID */
-#hero-gold-text{
+#hero-gold-text {
     color: rgb(254, 163, 1);
     font-size: 3.5rem;
     font-weight: 700;
 }
-#hero-sky-blue-text{
+
+#hero-sky-blue-text {
     font-size: 3.5rem;
     font-weight: 700;
     color: rgb(1, 172, 253);
 }
 
-.hero-btn{
+.hero-btn {
     width: 12.3125rem;
     height: 3.125rem;
     padding: 0.625rem;
@@ -145,133 +156,148 @@
 }
 
 /* Image container (right div) styles*/
-.hero-img{
+.hero-img {
     height: 43.75rem;
 }
+
 /* ---------------------------------------Main styles */
- 
+
 /* ----------------------------------------Standard Curriculum------------------------------------ */
-.standard-curriculum{
+.standard-curriculum {
     background-image: url('/images/bg.png');
     background-repeat: no-repeat;
     margin-bottom: 7.5rem;
 }
-.section-heading{
-     text-align: center;
-     color: rgb(0, 0, 0);
-     font-size: 2.875rem;
-     font-weight: 700;
+
+.section-heading {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2.875rem;
+    font-weight: 700;
 }
 
-.cards-container{
+.cards-container {
     justify-content: center;
     gap: 1.875rem;
     margin-bottom: 5rem;
     margin-top: 5rem;
-    
+
 }
+
 /* Card styles */
 
-.card{
+.card {
     width: 22.9875rem;
     height: 29.79875rem;
     padding: 4.0625rem 2.5rem;
     text-align: center;
-    
+
 }
 
-.card1{
+.card1 {
     box-sizing: border-box;
     border: 0.05875rem solid rgb(222, 245, 255);
     border-radius: 1.17875rem;
-        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-        background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
-.card2{
-        box-sizing: border-box;
-        border: 0.05875rem solid rgb(255, 244, 220);
-        border-radius: 1.17875rem;
-        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-        background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-    }
-    
-    .card3{
-        box-sizing: border-box;
-        border: 0.05875rem solid rgb(242, 232, 255);
-        border-radius: 1.17875rem;
-        box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-        background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-    }
-.card-text{
+
+.card2 {
+    box-sizing: border-box;
+    border: 0.05875rem solid rgb(255, 244, 220);
+    border-radius: 1.17875rem;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card3 {
+    box-sizing: border-box;
+    border: 0.05875rem solid rgb(242, 232, 255);
+    border-radius: 1.17875rem;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.card-text {
     color: rgb(32, 32, 32);
     font-size: 1.5325rem;
     font-weight: 700;
     text-align: center;
 }
-.card-small-text{
+
+.card-small-text {
     color: rgb(128, 128, 128);
     font-size: 0.943125rem;
     font-weight: 500;
     text-align: center;
     padding-bottom: 2.416875rem;
 }
-#sky-blue-font{
+
+#sky-blue-font {
     color: rgb(100, 200, 255);
     font-family: Quicksand;
     font-size: 0.943125rem;
     font-weight: 700;
 }
-#gold-font{
+
+#gold-font {
     color: rgb(240, 170, 0);
     font-size: 0.943125rem;
     font-weight: 700;
 }
-#violet-font{
+
+#violet-font {
     color: rgb(135, 0, 255);
     font-size: 0.943125rem;
     font-weight: 700;
 }
+
 /* button */
-.arrow-btn{
+.arrow-btn {
     text-align: center;
 }
+
 /* ----------------------------------------Our Stories------------------------------------ */
 
-.our-stories{
+.our-stories {
     background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%),
-    url('/images/bg.png');
+        url('/images/bg.png');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-blend-mode: lighten;
     background-size: cover;
 }
+
 /* --------------------------------- Left div -------------------- */
-.our-stories-cards{
-    margin:0px 140px 80px 140px;
+.our-stories-cards {
+    margin: 0px 140px 80px 140px;
     justify-content: center;
     gap: 2.5rem;
 }
-.toddler-classroom{
+
+.toddler-classroom {
     border-radius: 1rem;
     width: 33.766875rem;
-    
+
 }
-.toddler-classroom > img{
-    border-radius:16px 16px 0px 0px ;
+
+.toddler-classroom>img {
+    border-radius: 16px 16px 0px 0px;
     margin-bottom: 2.1875rem;
 }
 
 
-.overlap-btn{
+.overlap-btn {
     position: relative;
     border-radius: 2.995625rem;
     padding: 0.625rem;
     background: rgb(60, 216, 232);
     right: 0.625rem;
     left: 1.6875rem;
-    bottom: 2.9375rem;;
+    bottom: 2.9375rem;
+    ;
 }
-    
+
 .stories-text-box {
     padding: 1.25rem;
     border-radius: 1rem;
@@ -279,7 +305,8 @@
     height: 16.6875rem;
     margin-top: -70px;
 }
-.stories-card-heading-text{
+
+.stories-card-heading-text {
     padding-top: 1.4375rem;
     color: rgb(0, 0, 0);
     font-size: 1.625rem;
@@ -287,7 +314,7 @@
     margin-bottom: 3.125rem;
 }
 
-.stories-card-small-text{
+.stories-card-small-text {
     padding-top: 0.25rem;
     font-size: 1.08375rem;
     font-weight: 500;
@@ -298,25 +325,26 @@
 /* --------------------------------- Right div -------------------- */
 
 /* all 4 cards css */
-.mini-cards{
+.mini-cards {
     width: 18.168125rem;
     height: 18.850625rem;
     border-radius: 1rem;
     background: rgb(255, 255, 255);
     margin-bottom: 0.9375rem;
-    margin-left: 1.25rem;   
-}
-.mini-card-img{
-    width: 18.1875rem;
-    height: 11.0625rem;
-    border-radius:16px 16px 0px 0px;
+    margin-left: 1.25rem;
 }
 
-.mid-mini-cards{
+.mini-card-img {
+    width: 18.1875rem;
+    height: 11.0625rem;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.mid-mini-cards {
     display: none;
 }
 
-.overlap-btn-mini{
+.overlap-btn-mini {
     position: relative;
     left: 1.6875rem;
     bottom: 1.0625rem;
@@ -327,7 +355,8 @@
     font-size: 0.95875rem;
     font-weight: 500;
 }
-.mini-card-text{
+
+.mini-card-text {
     color: rgb(0, 0, 0);
     font-size: 0.95875rem;
     font-weight: 700;
@@ -335,8 +364,9 @@
     height: 18.850625rem;
     padding: 0.625rem;
 }
+
 /* --------------------- */
-.btn-center{
+.btn-center {
     text-align: center;
     padding-bottom: 3.75rem;
 }
@@ -344,52 +374,132 @@
 
 /* ---------------------------------------Footer styles */
 
+footer {
+    background-color: rgb(1, 172, 253);
+    margin: 0px;
+    padding: 100px;
+}
 
+.footer-contents {
+    justify-content: space-evenly;
+}
+
+.address-logo-div {
+    text-align: left;
+}
+
+.image-para-div {
+    justify-content: left;
+    padding: 0px;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-address-header {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 32.14px;
+    font-weight: 700;
+    margin-top: 19px;
+}
+
+.address-box {
+    width: 399.02px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px;
+}
+
+/* ---------------------------------- footer column menu */
+.column-menu-div{
+    text-align: left;
+}
+
+.footer-heading-texts {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-column-menu{
+    padding: 0px;
+}
+.footer-column-menu > li {
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.footer-column-menu>li>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;   
+}
+
+/*---------------------------------- Social media box */
+.social-logo-container {
+    gap: 10px;
+}
 
 /*=========================================================== Responsive Section Starts here */
 
 @media screen and (max-width: 575px) {
-    *{
+    * {
         margin: 0px;
     }
-    .d-none{
+
+    .d-none {
         display: block !important;
     }
+
     .custom-size {
-        font-size: 24px; 
+        font-size: 24px;
     }
 
-    .navbar{
-        justify-content:space-between;
+    .navbar {
+        justify-content: space-between;
         margin-top: 0px;
         margin-bottom: 10px;
         padding: 10px;
-        border: 1px solid rgb(254, 163, 1);   
+        border: 1px solid rgb(254, 163, 1);
     }
-    .nav-text ,.nav-menu, .nav-btn, .toddler-classroom{
+
+    .nav-text,
+    .nav-menu,
+    .nav-btn,
+    .toddler-classroom {
         display: none;
     }
-   
+
 
     /* ------------------------------------Hero section */
 
-    .hero-section , .cards-container{
+    .hero-section,
+    .cards-container {
         flex-direction: column-reverse;
         align-items: center;
         margin-bottom: 3.75rem;
     }
-    
-    .text-container{
+
+    .text-container {
         width: 22.3125rem;
         height: 15.75rem;
         justify-content: center;
         align-items: center;
         text-align: center;
         margin-top: 1.25rem;
-        
+
     }
-    
-    .hero-text{
+
+    .hero-text {
         font-size: 2rem;
         font-weight: 700;
         color: rgb(17, 17, 17);
@@ -398,24 +508,27 @@
 
     /* colorful banner texts with ID */
 
-    #hero-gold-text{
+    #hero-gold-text {
         color: rgb(254, 163, 1);
         font-size: 2rem;
         font-weight: 700;
         display: block;
     }
-    #hero-sky-blue-text{
+
+    #hero-sky-blue-text {
         font-size: 2rem;
         font-weight: 700;
         color: rgb(1, 172, 253);
     }
-    .light-text{
+
+    .light-text {
         color: rgb(17, 17, 17);
         font-size: 1.25rem;
-        font-weight: 500; 
+        font-weight: 500;
         margin-bottom: 18px;
     }
-    .hero-btn{
+
+    .hero-btn {
         width: 12.3125rem;
         height: 3.125rem;
         padding: 0.625rem;
@@ -426,49 +539,58 @@
         font-weight: 700;
         margin-bottom: 5rem;
     }
-    
+
     /* Image container (right div) styles*/
 
-    .hero-img{
+    .hero-img {
         width: 21.03625rem;
         height: 25.8125rem;
     }
 
     /* -----------------------------------Standard Curriculum-------------------------- */
-    .section-heading{
+    .section-heading {
         margin-top: 6.75rem;
     }
-    .cards-container{
+
+    .cards-container {
         margin: 1.25rem 1.03125rem;
     }
-    .chevron-btn{
+
+    .chevron-btn {
         display: none !important;
     }
+
     /* ----------------------------------------Our Stories------------------------------------ */
-    .section-heading{
+    .section-heading {
         margin-bottom: 80px;
     }
-    .stories-mini-cards{
+
+    .stories-mini-cards {
         justify-content: center;
         align-items: center;
         margin: 0px;
     }
-    .top-mini-cards{
+
+    .top-mini-cards {
         margin-bottom: 30px;
     }
-    .mid-mini-cards{
+
+    .mid-mini-cards {
         display: inline-flex;
 
     }
-    .mini-cards{
+
+    .mini-cards {
         width: 173.09px;
         height: 215.59px;
     }
-    .mini-card-img{
+
+    .mini-card-img {
         width: 173.27px;
         height: 105.39px;
     }
-    .overlap-btn-mini{
+
+    .overlap-btn-mini {
         position: relative;
         left: 12px;
         bottom: 15px;
@@ -481,15 +603,31 @@
         width: 103.91px;
         height: 22.83px;
     }
-    .overlap-btn-mini-blue{
+
+    .overlap-btn-mini-blue {
         background-color: rgb(93, 88, 240);
         color: white;
     }
-    
-    .mini-card-text{
+
+    .mini-card-text {
         width: 127.42px;
         height: 34.25px;
     }
+
+    /* ========================================== FOOTER ============================================ */
+
+    .footer-contents{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .image-para-div, .address-logo-div, .column-menu-div{
+        margin-bottom: 40px;
+    }
+    .social-logo-container{
+        margin-top: 40px;
+    }
+        
+
 }
 
 
