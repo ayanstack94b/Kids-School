@@ -25,17 +25,16 @@
     display: flex;
 }
 .d-none{
-    display:none !important;
+    display: none !important;
 }
 .light-text{
     color: rgb(17, 17, 17);
-    font-family: Quicksand;
     font-size: 1.25rem;
     font-weight: 400;    
 }
 .chevron-btn{
     font-size: 3.125rem;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 /*=========================================================== Common css ends here */
@@ -49,7 +48,7 @@
   margin: 1.25rem 0px 1.125rem;
   justify-content: space-around;
   align-items: center;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
 .nav-text-and-logo{
@@ -83,13 +82,11 @@
 }
 #facilities{
     color: rgb(5, 212, 223);
-    font-family: Quicksand;
     font-size: 1.25rem;
     font-weight: 500;
 }
 #admission{
     color: rgb(93, 88, 239);
-    font-family: Quicksand;
     font-size: 1.25rem;
     font-weight: 500;
 }
@@ -97,7 +94,7 @@
 .nav-btn{
     width: 12.3125rem;
     height: 3.125rem;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     background-color: rgb(254, 163, 1);
     color: rgb(255, 255, 255);
     font-size: 1.25rem;
@@ -140,7 +137,7 @@
     width: 12.3125rem;
     height: 3.125rem;
     padding: 0.625rem;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     background: rgb(17, 17, 17);
     color: white;
     font-size: 1.25rem;
@@ -155,9 +152,9 @@
  
 /* ----------------------------------------Standard Curriculum------------------------------------ */
 .standard-curriculum{
-   background-image: url('/images/bg.png');
-   background-repeat: no-repeat;
-   margin-bottom: 7.5rem;
+    background-image: url('/images/bg.png');
+    background-repeat: no-repeat;
+    margin-bottom: 7.5rem;
 }
 .section-heading{
      text-align: center;
@@ -171,7 +168,7 @@
     gap: 1.875rem;
     margin-bottom: 5rem;
     margin-top: 5rem;
-   
+    
 }
 /* Card styles */
 
@@ -184,64 +181,166 @@
 }
 
 .card1{
-        box-sizing: border-box;
-        border: 0.94px solid rgb(222, 245, 255);
-        border-radius: 18.86px;
+    box-sizing: border-box;
+    border: 0.05875rem solid rgb(222, 245, 255);
+    border-radius: 1.17875rem;
         box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
         background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 .card2{
         box-sizing: border-box;
-        border: 0.94px solid rgb(255, 244, 220);
-        border-radius: 18.86px;
+        border: 0.05875rem solid rgb(255, 244, 220);
+        border-radius: 1.17875rem;
         box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
         background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-}
-
-.card3{
+    }
+    
+    .card3{
         box-sizing: border-box;
-        border: 0.94px solid rgb(242, 232, 255);
-        border-radius: 18.86px;
+        border: 0.05875rem solid rgb(242, 232, 255);
+        border-radius: 1.17875rem;
         box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
         background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-}
+    }
 .card-text{
     color: rgb(32, 32, 32);
-    font-size: 24.52px;
+    font-size: 1.5325rem;
     font-weight: 700;
     text-align: center;
 }
 .card-small-text{
     color: rgb(128, 128, 128);
-    font-family: Raleway;
-    font-size: 15.09px;
+    font-size: 0.943125rem;
     font-weight: 500;
     text-align: center;
-    padding-bottom: 2.416875;
+    padding-bottom: 2.416875rem;
 }
 #sky-blue-font{
     color: rgb(100, 200, 255);
     font-family: Quicksand;
-    font-size: 15.09px;
+    font-size: 0.943125rem;
     font-weight: 700;
 }
 #gold-font{
     color: rgb(240, 170, 0);
-    font-family: Quicksand;
-    font-size: 15.09px;
+    font-size: 0.943125rem;
     font-weight: 700;
 }
 #violet-font{
     color: rgb(135, 0, 255);
-    font-family: Quicksand;
-    font-size: 15.09px;
+    font-size: 0.943125rem;
     font-weight: 700;
 }
 /* button */
-
 .arrow-btn{
     text-align: center;
 }
+/* ----------------------------------------Our Stories------------------------------------ */
+
+.our-stories{
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%),
+    url('/images/bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+/* --------------------------------- Left div -------------------- */
+.our-stories-cards{
+    margin:0px 140px 80px 140px;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.toddler-classroom{
+    border-radius: 1rem;
+    width: 33.766875rem;
+    
+}
+.toddler-classroom > img{
+    border-radius:16px 16px 0px 0px ;
+    margin-bottom: 2.1875rem;
+}
+
+
+.overlap-btn{
+    position: relative;
+    border-radius: 2.995625rem;
+    padding: 0.625rem;
+    background: rgb(60, 216, 232);
+    right: 0.625rem;
+    left: 1.6875rem;
+    bottom: 2.9375rem;;
+}
+    
+.stories-text-box {
+    padding: 1.25rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+    height: 16.6875rem;
+    margin-top: -70px;
+}
+.stories-card-heading-text{
+    padding-top: 1.4375rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin-bottom: 3.125rem;
+}
+
+.stories-card-small-text{
+    padding-top: 0.25rem;
+    font-size: 1.08375rem;
+    font-weight: 500;
+    width: 27.0625rem;
+    margin-bottom: 1.25rem;
+}
+
+/* --------------------------------- Right div -------------------- */
+
+/* all 4 cards css */
+.mini-cards{
+    width: 18.168125rem;
+    height: 18.850625rem;
+    border-radius: 1rem;
+    background: rgb(255, 255, 255);
+    margin-bottom: 0.9375rem;
+    margin-left: 1.25rem;   
+}
+.mini-card-img{
+    width: 18.1875rem;
+    height: 11.0625rem;
+    border-radius:16px 16px 0px 0px;
+}
+
+.mid-mini-cards{
+    display: none;
+}
+
+.overlap-btn-mini{
+    position: relative;
+    left: 1.6875rem;
+    bottom: 1.0625rem;
+    border-radius: 2.976875rem;
+    padding: 0.625rem;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-size: 0.95875rem;
+    font-weight: 500;
+}
+.mini-card-text{
+    color: rgb(0, 0, 0);
+    font-size: 0.95875rem;
+    font-weight: 700;
+    width: 17.165625rem;
+    height: 18.850625rem;
+    padding: 0.625rem;
+}
+/* --------------------- */
+.btn-center{
+    text-align: center;
+    padding-bottom: 3.75rem;
+}
+
 
 /* ---------------------------------------Footer styles */
 
@@ -267,7 +366,7 @@
         padding: 10px;
         border: 1px solid rgb(254, 163, 1);   
     }
-    .nav-text ,.nav-menu, .nav-btn{
+    .nav-text ,.nav-menu, .nav-btn, .toddler-classroom{
         display: none;
     }
    
@@ -286,7 +385,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 1.25rem;
         
     }
     
@@ -294,7 +393,7 @@
         font-size: 2rem;
         font-weight: 700;
         color: rgb(17, 17, 17);
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     /* colorful banner texts with ID */
@@ -312,7 +411,6 @@
     }
     .light-text{
         color: rgb(17, 17, 17);
-        font-family: Quicksand;
         font-size: 1.25rem;
         font-weight: 500; 
         margin-bottom: 18px;
@@ -321,12 +419,12 @@
         width: 12.3125rem;
         height: 3.125rem;
         padding: 0.625rem;
-        border-radius: 12px;
+        border-radius: 0.75rem;
         background: rgb(17, 17, 17);
         color: white;
         font-size: 1.25rem;
         font-weight: 700;
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
     }
     
     /* Image container (right div) styles*/
@@ -345,6 +443,52 @@
     }
     .chevron-btn{
         display: none !important;
+    }
+    /* ----------------------------------------Our Stories------------------------------------ */
+    .section-heading{
+        margin-bottom: 80px;
+    }
+    .stories-mini-cards{
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .top-mini-cards{
+        margin-bottom: 30px;
+    }
+    .mid-mini-cards{
+        display: inline-flex;
+
+    }
+    .mini-cards{
+        width: 173.09px;
+        height: 215.59px;
+    }
+    .mini-card-img{
+        width: 173.27px;
+        height: 105.39px;
+    }
+    .overlap-btn-mini{
+        position: relative;
+        left: 12px;
+        bottom: 15px;
+        border-radius: 16px;
+        padding: 10px;
+        background: rgb(149, 178, 38);
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        font-weight: 500;
+        width: 103.91px;
+        height: 22.83px;
+    }
+    .overlap-btn-mini-blue{
+        background-color: rgb(93, 88, 240);
+        color: white;
+    }
+    
+    .mini-card-text{
+        width: 127.42px;
+        height: 34.25px;
     }
 }
 
